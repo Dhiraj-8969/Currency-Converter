@@ -8,7 +8,7 @@ for (let i = 0; i < dropList.length; i++) {
   for(country_code in countryList){
     let selected;
     if(i==0){
-      selected= country_code == "USD" ? "selected" : "";
+      selected= country_code == "AED" ? "selected" : "";
     }else if(i==1){
       selected= country_code == "INR" ? "selected" : "";
     }
